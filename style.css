@@ -1,0 +1,250 @@
+body {
+  background-color: black;
+  background-image:
+    linear-gradient(#1c1c1c 1px, transparent 1px),
+    linear-gradient(90deg, #1c1c1c 1px, transparent 1px);  /*possibly change grid size for a cleaner look on mobile someday*/
+  background-size: 50px 50px;
+  color: white;
+  font-family: Arial, sans-serif;
+  font-size: 18px;
+  margin: 0px;
+  padding: 20px;
+}
+
+.MainWindow {
+  background-color: rgba(17, 17, 17, 0.85);
+  width: 95%;
+  max-width: 1400px;
+  min-height: 80vh;
+  margin: 20px auto;
+  padding: 40px 60px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  border-radius: 15px;
+  border: 2px solid #0f7a3a;
+}
+
+.logo {
+  font-size: 34px;
+  font-weight: bold;
+  color: #2ecc71;
+  margin-bottom: 25px;
+}
+
+.mainPage {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 25px;
+  padding: 0;
+  margin: 0;
+}
+
+.MainWindow .linkButton {
+  display: inline-block;
+  background-color: #2ecc71;
+  color: black;
+  border: 2px solid #2ecc71;
+  padding: 12px 32px;
+  font-size: 19px;
+  border-radius: 5px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.MainWindow .linkButton:hover {
+  background-color: #27ae60;
+  border-color: #27ae60;
+}
+
+.MainWindow .linkButton.active {
+  background-color: transparent;
+  color: #2ecc71;
+}
+
+.main {
+  margin-top: 70px;
+  margin-bottom: 30px;
+}
+
+.left {
+  width: 65%;
+}
+
+.home {
+  flex: 1;
+  display: flex;
+  margin: 0;
+}
+
+.home header {
+  margin-top: 0;
+}
+
+.home header {
+  margin-bottom: 0;
+}
+
+.home .left {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: flex-start;
+}
+
+.home .left p,
+.home .left .buttons,
+.home .personalLinks {
+  margin: 0;
+}
+
+h1 {
+  font-size: 60px;
+  margin-bottom: 5px;
+}
+
+h2 {
+  color: #2ecc71;
+  margin-top: 0;
+  font-size: 30px;
+}
+
+p {
+  color: #cccccc;
+  line-height: 1.6;
+}
+
+.buttons {
+  background-color: #2ecc71;
+  color: black;
+  border: none;
+  padding: 14px 34px;
+  font-size: 19px;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 15px;
+}
+
+.buttons:hover {
+  background-color: #27ae60;
+}
+
+.personalLinks {
+  margin-top: 40px;
+}
+
+.personalLinks a {
+  color: #2ecc71;
+  margin-right: 20px;
+  text-decoration: none;
+}
+
+.personalLinks a:hover {
+  text-decoration: underline;
+}
+
+.aboutBox {
+  width: 85%;
+  margin: 0 auto;
+  font-size: 21px;
+}
+
+.aboutBox p {
+  text-align: justify;
+}
+
+.aboutBox h2 {
+  margin-top: 40px;
+}
+
+.skills {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+
+.projects {
+  border: 1px solid #333333;
+  border-radius: 8px;
+  padding: 20px;
+  margin-top: 25px;
+  background-color: #1a1a1a;
+}
+
+.projects img {
+  display: block;
+  width: 100%;
+  max-width: 750px;
+  border-radius: 6px;
+  border: 1px solid #333333;
+  margin-top: 10px;
+}
+
+.projects video {       /*remember to edit video size*/
+  display: block;
+  width: 100%;
+  max-width: 750px;
+  border-radius: 6px;
+  border: 1px solid #333333;
+  margin-top: 10px;
+}
+
+.gallery {
+    display: flex;
+    gap: 15px;
+}
+
+.gallery img{
+    width: 33%;
+}
+
+.noImage {
+  max-width: 750px;
+  height: 250px;
+  border: 2px dashed #333333;
+  border-radius: 6px;
+  color: gray;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.contactBox {
+  max-width: 600px;
+}
+
+.contactBox label {
+  display: block;
+  color: #2ecc71;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.contactBox input,
+.contactBox textarea {
+  width: 100%;
+  padding: 14px;
+  margin-bottom: 18px;
+  background-color: #1a1a1a;
+  color: white;
+  border: 1px solid #333333;
+  border-radius: 5px;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+  font-size: 18px;
+}
+
+.contactBox input:focus,
+.contactBox textarea:focus {
+  outline: none;
+  border-color: #2ecc71;
+}
+
+.designedbyLabel {
+  text-align: center;
+  color: gray;
+}

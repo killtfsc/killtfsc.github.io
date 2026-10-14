@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Projects - Tylar Killarney</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="MainWindow">
+
+    <div class="pageButtons">
+      <div class="logo">Tylar Killarney</div>
+      <ul class="mainPage">
+        <li><a class="linkButton" href="website.html">Home</a></li>
+        <li><a class="linkButton" href="about.html">About</a></li>
+        <li><a class="linkButton active" href="projects.html">Projects</a></li>
+        <li><a class="linkButton" href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+
+    <div class="main">
+      <h1>My Projects</h1> <!--shows my projects with some examples-->
+
+      <div class="projects">
+        <h2>Street Fighter RPS</h2>
+        <p>Rock-Paper-Scissors game built in JavaFX using Street Fighter 3 sprites and Win/Lose screens.</p>
+        <video autoplay muted loop playsinline> <!--add controls after playsinline if you want to control vid -->
+          <source src="SF3RPS.webm" type="video/webm">  <!--listed two different files incase of certain browsers not loading mp4. chromium on linux has trouble loading mp4-->
+          <source src="SF3RPS.mp4" type="video/mp4">
+        </video>
+      </div>
+
+      <div class="projects">
+        <h2>Godot Beta</h2>
+        <p>2D platformer featuring rhythm game/DDR features for boss battles. It will be built in Godot.</p>
+        <p>Still in beginner stages. No work to be shown yet :'( Check back at a later time!</p>  
+        <img src="images/godot.png" alt="godot engine logo">    <!--remember to replace this png with real artwork/character design when done-->
+      </div>
+    </div>
+
+  </div>
+
+  <p class="designedbyLabel">/Designed by Tylar\</p>
+
+  <script src="website.js"></script>
+</body>
+</html>
